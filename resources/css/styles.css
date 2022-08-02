@@ -1,0 +1,24 @@
+body::before { 
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+/* always adding the content property when using the pseudo-classes before and after*/
+
+#map { 
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid mediumseagreen;
+}
+
+@media(min-width: 768px) { 
+    .newsletter-input {
+        width: 50%;
+    }
+} 
+
+
+
+/*768px is the breakpoint for medium screens */
